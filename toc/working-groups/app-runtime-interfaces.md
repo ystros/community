@@ -34,10 +34,10 @@ Components from the App Autoscaler, CAPI, CLI, Java Tools, MultiApps, Notificati
 ```yaml
 name: App Runtime Interfaces
 execution_leads:
-- name: Greg Cobb 
+- name: Greg Cobb
   github: gerg
 technical_leads:
-- name: Greg Cobb 
+- name: Greg Cobb
   github: gerg
 areas:
 - name: Autoscaler
@@ -49,7 +49,7 @@ areas:
   - name: Silvestre Zabala
     github: silvestre
   - name: Kevin Cross
-    github: KevinJCross 
+    github: KevinJCross
   - name: Aadesh Misra
     github: aadeshmisra
   - name: Alan Morán
@@ -114,7 +114,7 @@ areas:
   - cloudfoundry/r-buildpack-release
   - cloudfoundry/apt-buildpack
   - cloudfoundry/docs-buildpacks
-  - cloudfoundry/brats  
+  - cloudfoundry/brats
 - name: CAPI
   approvers:
   - name: Tom Viehman
@@ -130,7 +130,7 @@ areas:
   - name: Philipp Thun
     github: philippthun
   - name: Andy Paine
-    github: andy-paine 
+    github: andy-paine
   - name: Merric de Launey
     github: MerricdeLauney
   - github: monamohebbi
@@ -146,7 +146,9 @@ areas:
   - cloudfoundry/tps
   - cloudfoundry/cc-uploader
   - cloudfoundry/sync-integration-tests
- 
+  - cloudfoundry/go-cf-api
+  - cloudfoundry/go-cf-api-release
+
 - name: CLI
   approvers:
   - name: Al Berez
@@ -158,7 +160,7 @@ areas:
   - cloudfoundry/cli-i18n
   - cloudfoundry/cli-ci
   - cloudfoundry/cli-plugin-repo
-  
+
 - name: Docs
   approvers:
   - name: Melinda Jeffs Gutermuth
